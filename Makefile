@@ -44,6 +44,7 @@ docs: \
 	Documentation/variables/config.md \
 	Documentation/variables/aws.md \
 	Documentation/variables/azure.md \
+	Documentation/variables/google.md \
 	Documentation/variables/metal.md \
 	Documentation/variables/openstack-nova.md \
 	Documentation/variables/openstack-neutron.md
@@ -73,6 +74,7 @@ endif
 examples: \
 	examples/terraform.tfvars.aws \
 	examples/terraform.tfvars.azure \
+	examples/terraform.tfvars.google \
 	examples/terraform.tfvars.metal \
 	examples/terraform.tfvars.openstack-nova \
 	examples/terraform.tfvars.openstack-neutron
